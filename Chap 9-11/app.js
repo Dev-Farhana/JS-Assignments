@@ -4,15 +4,12 @@
         // if (cityName == "Karachi"){
         //     alert("Welcome to city of lights");
         // }
-        // else {
-        //     alert("Welcome to city of " + cityName);
-        // }
 
  // Exercise # 2;
-        // var gender = prompt( " Enter your gender here ");
-        // if (gender == "Male" ) {
+        // var usergender = prompt( " Enter your gender here ");
+        // if (usergender == "Male" ) {
         //     alert (" Good Morning Sir!");
-        // } else if ( gender == "Female") {
+        // } else if ( usergender == "Female") {
         //     alert ( "Good Morning Ma'am! ")
         // }
 
@@ -144,15 +141,10 @@
             // if (guessUser == secretNum) {
             //     alert( " Bingo! Correct answer");                
             // } 
-            // else if((guessUser == secretNum - 1) || (guessUser == secretNum + 1) )
+            // else if (guessUser == secretNum + 1) 
             // {
             //     alert("Close enough to the correct answer");
-                
-            // }
-            // else
-            // {
-            //     alert(" Sorry! Incorrect");
-            // }
+                    // }
 
 
   // Exercise # 8; Write a program to check whether the given number is divisible by 3. Show the message to the user if the number
