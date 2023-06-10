@@ -9,7 +9,7 @@
 
 
 // Task # 2.. Declare and initialize a multidimensional array  representing the following matrix:
-         var matrix = [
+ /*         var matrix = [
                 [1,2,3],
                 [4,5,6],
                 [7,8,9]
@@ -20,6 +20,7 @@
                 }
                 document.write("<br>");
             }
+*/
 
 // Task # 3. Write a program to print numeric counting from 1 to 10.
         // for(var i = 1; i <= 10; i++){
@@ -90,19 +91,33 @@
                 //     document.write(i + "K" );
                 // }
                 
-
+    
+// Task # 7.You have an array A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]. Write a program to enable “search by user input” in an array.
+ // After searching, prompt the user whether the given item is found in  the list or not.
+/*
+        let A2 = ["cake", "apple pie", "cookie", "chips", "patties"];
+        let userOrder = prompt("Welcome to ABC Bakery. What do you want to order sir / ma'am?");
+        let flag = false;
+        for(let i = 0; i < A2.length; i++) {
+        if (userOrder.toLowerCase() === A2[i]) {
+            flag = true;
+            break;
+        }
+        }
+        if (flag) {
+        alert("It is on the list.");
+        } else {
+        alert("Not on the list.");
+        }
+ 
+ */
 
  // Task # 8. Write a program to identify the largest number in the given array. A = [24, 53, 78, 91, 12]
 /*
-                   let $A = [24, 53, 78, 91, 12];  
+                  let $A = [24, 53, 78, 91, 12];  
                    console.log("Array items:" + $A);                
-                    let large = $A[0];
-                for( i = 1; i < $A.length; i++){
-                    if ($A [i] > large){
-                        large = $A[i];
-                    }
-                }
-                console.log("Largest no:" + large);
+                   let large = Math.max(...$A);
+                    console.log("Largest no:" + large);
 
 */
 
