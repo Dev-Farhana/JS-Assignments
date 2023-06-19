@@ -150,10 +150,15 @@
 
     //Q no.18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
 
-        /*        const text = " The quick brown fox jumps over the lazy dog";
-                const wordCount = "the";   
-                let regex = new RegExp(`\\b${wordCount}\\b `, "gi");
-                let count = (text.match(regex) || []).length;
-                console.log("Text:" + text);
-              console.log(`There are ${count} occurrence(s) of word '${wordCount}'` );
+        /*        
+           var paraText = "The quick brown fox jumps over the lazy dog";
+                let counter = 0;
+                for (var i = 0; i < paraText.length; i++) {
+                    if (paraText.substring(i, i + 3).toLowerCase() === "the") {
+                        counter += 1;
+                    }
+                }
+                console.log("Text:" + paraText);
+                console.log(`There are ${counter} occurrence(s) of word 'the' ` );
+                
         */
