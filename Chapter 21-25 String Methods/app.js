@@ -74,9 +74,16 @@
                 // console.log("Upper case: " + user$.toUpperCase() ) ;
 
     //Q no.11 Write a program that takes user input. Convert and show the input in title case.
-                // let user_ = "javascript";
-                // console.log("User input: ".concat(user_));
-                // console.log("Title case: " + user_.toUpperCase() );
+            
+                // let userInput = prompt("Enter any word:", "javascript");
+                //  let firstChar = userInput.slice(0,1);
+                // let otherChars = slice(1);
+                // firstChar = firstChar.toUpperCase();
+                // otherChars = otherChars.toLowerCase();
+                // let titleCase = userInput + otherChars;
+                // console.log("User Input: " + userInput);
+                // console.log("Title Case: " + titleCase);
+
 
     //Q no.12 Write a program that converts the variable num to string. var num = 35.36 ; Remove the dot to display “3536” display in your browser.
 
