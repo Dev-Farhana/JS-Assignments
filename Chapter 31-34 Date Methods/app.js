@@ -63,8 +63,8 @@
 
     //  8. Write a program that creates a Date object for the last day of the last month of 2020 and assigns it to variable named laterDate.
             const dateNew = new Date();
-            const dateBack = new Date('December 31, 2020');
-            document.write(dateBack); 
+            const laterDate = new Date('December 31, 2020');
+            document.write( 'Later'  , laterDate); 
 
 
 
